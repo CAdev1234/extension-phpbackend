@@ -1,0 +1,74 @@
+body{
+    /* background-image: url('https://wallpaperbat.com/img/198411-free-download-london-at-night-wallpaper-hd-wallpaper-1440x900.jpg'); */
+    /* background-image: url('https://preview.redd.it/o1lw7yqg7mc11.jpg?width=960&crop=smart&auto=webp&s=95c75f836f024108fea527d693c4e0b5eb3a0cfd'); */
+    background-image: url('https://blog.vpncity.com/wp-content/uploads/2020/01/business.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.registration-form{
+	padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: rgba(0, 150, 136, 0.3);
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: rgb(76, 175, 80);
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255, 0.9);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(76, 175, 80, 0.8);
+    border: none;
+    color: white;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.registration-form .create-account:hover{
+    opacity: 0.9;
+}
+
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
